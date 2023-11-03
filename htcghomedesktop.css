@@ -1,0 +1,66 @@
+@media screen and (min-device-width:1024px){
+    
+    
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  
+  .left {
+    left: 0;
+    background-color: #6F4C35;
+    margin: 0;
+  }
+  
+  
+  .right {
+    right: 0;
+    background-color: #779CEC;
+    margin: 0;
+  
+  }
+  
+  
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  
+  }
+  
+  
+  
+  .centered img {
+    width: 550px;
+    
+  
+  }
+  
+  .header {
+    padding: 0px;
+    text-align: center;
+    color: #779CEC;
+    font-size: 30px;
+  
+  }
+  
+  button {
+  
+    color: white;
+    background-color: #6F4C35;
+    width: 100px;
+    height: 35px;
+    border: none;
+    margin: 10px;
+    
+  
+  }
+}

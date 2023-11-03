@@ -1,0 +1,76 @@
+@media screen and (max-device-width:1023px) and (orientation: portrait){
+
+
+  header {
+    padding: 10px;
+    text-align: left;
+    color: #6F4C35;
+    font-size: 50px;
+    font-weight: bold;
+  
+  }
+  
+
+  ul {
+    position:fixed;
+    top:0px;
+    left:-170px;
+    width:170px;
+    bottom:0px;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: left;
+    padding-top:20px; 
+    z-index: 10;
+  }
+  
+  
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  body {
+    background-color: #779CEC;
+    margin: 0px;
+  }
+  
+  #div1 {
+    width: 300px;
+    height: 900px;
+    line-height: 300px;
+    text-align: right;
+    vertical-align: middle;
+  }
+  
+  
+  
+  .centered {
+    margin: auto;
+    width: 75%;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .text {
+    background-color: lightgrey;
+    width: 600px;
+    border: 15px solid #3F548B;
+    padding: 50px;
+    margin: 20px;
+    right: 25%;
+    
+  }
+
+
+
+
+}
